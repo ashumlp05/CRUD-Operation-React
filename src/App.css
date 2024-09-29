@@ -1,0 +1,83 @@
+/* General body and container styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #544d78;
+  margin: 0;
+  padding: 0;
+}
+
+section.section-form {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #626394;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section.section-post {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #545a97;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ol {
+  list-style: disc;
+}
+
+li {
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+p {
+  margin: 5px 0;
+  color: #c8b6b6;
+  font-size: 16px;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  color: rgb(143, 66, 66);
+}
+
+.edit-btn {
+  background-color: #2196f3;
+}
+
+.dlt-btn {
+  background-color: #f44336;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  section.section-form,
+  section.section-post {
+    padding: 10px;
+  }
+
+  li {
+    padding: 10px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
